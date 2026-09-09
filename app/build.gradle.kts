@@ -246,7 +246,7 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.geode.launcher"
+        applicationId = "be.dimisaio.modded"
         minSdk = 23
         targetSdk = 36
         versionCode = 30
@@ -291,7 +291,7 @@ android {
 
         create("googlePlay") {
             dimension = "distribution"
-            applicationId = "com.geode.launcher.play"
+            applicationId = "be.dimisaio.modded.play"
             buildConfigField("boolean", "GOOGLE_PLAY_BUILD", "true")
             buildConfigField("String", "PREBUNDLED_GEODE", "\"$currentGeodeVersion\"")
         }
@@ -330,7 +330,7 @@ android {
             path = file("src/main/cpp/CMakeLists.txt")
         }
     }
-    namespace = "com.geode.launcher"
+    namespace = "be.dimisaio.modded"
     ndkVersion = "29.0.14206865"
 }
 
