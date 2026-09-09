@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package be.dimisaio.modded.preferences
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -40,20 +40,20 @@ import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.preferences.components.OptionsButton
-import com.geode.launcher.preferences.components.OptionsGroup
-import com.geode.launcher.preferences.components.ProfileCreateCard
-import com.geode.launcher.preferences.components.ProfileSelectCard
-import com.geode.launcher.preferences.components.SettingsCard
-import com.geode.launcher.preferences.components.SettingsSelectCard
-import com.geode.launcher.preferences.components.SettingsStringCard
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.R
+import be.dimisaio.modded.preferences.components.OptionsButton
+import be.dimisaio.modded.preferences.components.OptionsGroup
+import be.dimisaio.modded.preferences.components.ProfileCreateCard
+import be.dimisaio.modded.preferences.components.ProfileSelectCard
+import be.dimisaio.modded.preferences.components.SettingsCard
+import be.dimisaio.modded.preferences.components.SettingsSelectCard
+import be.dimisaio.modded.preferences.components.SettingsStringCard
+import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
+import be.dimisaio.modded.ui.theme.LocalTheme
+import be.dimisaio.modded.ui.theme.Theme
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 
 class DeveloperSettingsActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

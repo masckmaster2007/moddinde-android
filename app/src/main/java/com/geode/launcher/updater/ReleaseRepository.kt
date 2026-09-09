@@ -1,7 +1,7 @@
-package com.geode.launcher.updater
+package be.dimisaio.modded.updater
 
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.utils.LaunchUtils
+import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.utils.LaunchUtils
 import kotlin.time.Clock
 import kotlinx.datetime.DateTimeUnit
 import kotlin.time.Instant

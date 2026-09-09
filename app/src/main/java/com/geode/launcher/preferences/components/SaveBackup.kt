@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences.components
+package be.dimisaio.modded.preferences.components
 
 import android.content.Context
 import android.util.Log
@@ -18,8 +18,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import com.geode.launcher.R
-import com.geode.launcher.utils.LaunchUtils
+import be.dimisaio.modded.R
+import be.dimisaio.modded.utils.LaunchUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancelAndJoin
@@ -42,7 +42,7 @@ import java.io.File
 import kotlin.experimental.xor
 import kotlin.time.Duration.Companion.seconds
 
-const val TAG = "com.geode.launcher.SaveBackup"
+const val TAG = "be.dimisaio.modded.SaveBackup"
 
 data class UserDetails(
     val userName: String,

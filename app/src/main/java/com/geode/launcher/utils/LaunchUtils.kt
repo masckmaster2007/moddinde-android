@@ -1,8 +1,8 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import android.content.Context
 import android.os.Build
-import com.geode.launcher.BuildConfig
+import be.dimisaio.modded.BuildConfig
 import java.io.File
 import java.io.Serializable
 

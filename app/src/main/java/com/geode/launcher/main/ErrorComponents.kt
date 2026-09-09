@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package be.dimisaio.modded.main
 
 import android.content.ActivityNotFoundException
 import android.content.ClipData
@@ -51,16 +51,16 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.preferences.ApplicationLogsActivity
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.preferences.GeodeLogsListingActivity
-import com.geode.launcher.preferences.TextViewActivity
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.preferences.ApplicationLogsActivity
+import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.R
+import be.dimisaio.modded.UserDirectoryProvider
+import be.dimisaio.modded.preferences.GeodeLogsListingActivity
+import be.dimisaio.modded.preferences.TextViewActivity
+import be.dimisaio.modded.ui.theme.Typography
+import be.dimisaio.modded.utils.GamePackageUtils
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import kotlinx.coroutines.launch
 import java.io.File
 

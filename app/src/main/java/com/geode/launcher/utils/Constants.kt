@@ -1,9 +1,9 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import android.annotation.SuppressLint
 
 object Constants {
-    const val PACKAGE_NAME = "com.robtopx.geometryjump"
+    const val PACKAGE_NAME = "be.dimisaio.dindegmdps22"
 
     const val COCOS_LIB_NAME = "cocos2dcpp"
     const val FMOD_LIB_NAME = "fmod"

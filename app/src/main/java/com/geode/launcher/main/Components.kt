@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package be.dimisaio.modded.main
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -22,8 +22,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.utils.Constants
+import be.dimisaio.modded.R
+import be.dimisaio.modded.utils.Constants
 import androidx.core.net.toUri
 
 fun onDownloadGame(context: Context) {

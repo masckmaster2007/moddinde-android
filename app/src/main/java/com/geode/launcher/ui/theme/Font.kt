@@ -1,11 +1,11 @@
-package com.geode.launcher.ui.theme
+package be.dimisaio.modded.ui.theme
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.geode.launcher.R
+import be.dimisaio.modded.R
 
 val robotoMonoFamily = FontFamily(
     Font(R.font.robotomono_medium, FontWeight.Medium),

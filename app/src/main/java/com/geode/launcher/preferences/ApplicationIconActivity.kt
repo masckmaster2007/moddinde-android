@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package be.dimisaio.modded.preferences
 
 import android.content.ComponentName
 import android.content.Context
@@ -50,16 +50,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.R
+import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
+import be.dimisaio.modded.ui.theme.LocalTheme
+import be.dimisaio.modded.ui.theme.Theme
+import be.dimisaio.modded.utils.PreferenceUtils
 import androidx.compose.ui.semantics.Role
-import com.geode.launcher.utils.ApplicationIcon
-import com.geode.launcher.utils.ApplicationIconDetails
-import com.geode.launcher.utils.IconUtils
-import com.geode.launcher.utils.adaptiveIconPainterResource
+import be.dimisaio.modded.utils.ApplicationIcon
+import be.dimisaio.modded.utils.ApplicationIconDetails
+import be.dimisaio.modded.utils.IconUtils
+import be.dimisaio.modded.utils.adaptiveIconPainterResource
 
 class ApplicationIconActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

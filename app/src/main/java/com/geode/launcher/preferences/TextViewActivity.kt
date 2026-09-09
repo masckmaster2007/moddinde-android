@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package be.dimisaio.modded.preferences
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -44,15 +44,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.ui.theme.robotoMonoFamily
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.R
+import be.dimisaio.modded.UserDirectoryProvider
+import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
+import be.dimisaio.modded.ui.theme.LocalTheme
+import be.dimisaio.modded.ui.theme.Theme
+import be.dimisaio.modded.ui.theme.Typography
+import be.dimisaio.modded.ui.theme.robotoMonoFamily
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

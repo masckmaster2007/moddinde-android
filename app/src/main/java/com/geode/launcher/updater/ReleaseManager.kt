@@ -1,12 +1,12 @@
-package com.geode.launcher.updater
+package be.dimisaio.modded.updater
 
 import android.content.Context
 import android.util.Log
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.utils.DownloadUtils
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.utils.DownloadUtils
+import be.dimisaio.modded.utils.GamePackageUtils
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope

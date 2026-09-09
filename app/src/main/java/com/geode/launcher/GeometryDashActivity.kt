@@ -1,4 +1,4 @@
-package com.geode.launcher
+package be.dimisaio.modded
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -26,15 +26,15 @@ import androidx.core.view.WindowInsetsControllerCompat
 import androidx.core.view.updatePadding
 import com.customRobTop.BaseRobTopActivity
 import com.customRobTop.JniToCpp
-import com.geode.launcher.main.LaunchNotification
-import com.geode.launcher.main.determineDisplayedCards
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.ConstrainedFrameLayout
-import com.geode.launcher.utils.DownloadUtils
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.GeodeUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.main.LaunchNotification
+import be.dimisaio.modded.main.determineDisplayedCards
+import be.dimisaio.modded.utils.Constants
+import be.dimisaio.modded.utils.ConstrainedFrameLayout
+import be.dimisaio.modded.utils.DownloadUtils
+import be.dimisaio.modded.utils.GamePackageUtils
+import be.dimisaio.modded.utils.GeodeUtils
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView
 import org.cocos2dx.lib.Cocos2dxHelper
 import org.cocos2dx.lib.Cocos2dxRenderer

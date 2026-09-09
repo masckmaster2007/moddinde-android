@@ -1,4 +1,4 @@
-package com.geode.launcher.log
+package be.dimisaio.modded.log
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel

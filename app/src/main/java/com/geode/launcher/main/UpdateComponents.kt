@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package be.dimisaio.modded.main
 
 import android.app.PendingIntent
 import android.content.Context
@@ -48,13 +48,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextLinkStyles
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.InstallReceiver
-import com.geode.launcher.R
-import com.geode.launcher.main.LauncherUpdater.downloadUpdate
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.InstallReceiver
+import be.dimisaio.modded.R
+import be.dimisaio.modded.main.LauncherUpdater.downloadUpdate
+import be.dimisaio.modded.ui.theme.Typography
+import be.dimisaio.modded.updater.ReleaseManager
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import com.mikepenz.markdown.compose.LocalBulletListHandler
 import com.mikepenz.markdown.m3.Markdown
 import com.mikepenz.markdown.m3.markdownTypography

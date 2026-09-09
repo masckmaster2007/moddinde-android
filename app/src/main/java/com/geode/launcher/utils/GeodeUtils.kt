@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import android.Manifest
 import android.content.ActivityNotFoundException
@@ -30,11 +30,11 @@ import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import androidx.documentfile.provider.DocumentFile
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.activityresult.GeodeOpenFileActivityResult
-import com.geode.launcher.activityresult.GeodeOpenFilesActivityResult
-import com.geode.launcher.activityresult.GeodeSaveFileActivityResult
+import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.R
+import be.dimisaio.modded.activityresult.GeodeOpenFileActivityResult
+import be.dimisaio.modded.activityresult.GeodeOpenFilesActivityResult
+import be.dimisaio.modded.activityresult.GeodeSaveFileActivityResult
 import java.io.File
 import java.lang.ref.WeakReference
 import kotlin.system.exitProcess

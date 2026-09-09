@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences.components
+package be.dimisaio.modded.preferences.components
 
 import android.content.Context
 import android.content.Intent
@@ -41,12 +41,12 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.LabelledText
-import com.geode.launcher.utils.PreferenceUtils
-import com.geode.launcher.utils.ProfileManager
+import be.dimisaio.modded.R
+import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
+import be.dimisaio.modded.ui.theme.Typography
+import be.dimisaio.modded.utils.LabelledText
+import be.dimisaio.modded.utils.PreferenceUtils
+import be.dimisaio.modded.utils.ProfileManager
 import kotlin.collections.get
 import kotlin.math.log10
 import kotlin.math.roundToInt

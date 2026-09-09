@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
-        <package android:name="com.robtopx.geometryjump" />
+        <package android:name="be.dimisaio.dindegmdps22" />
     </queries>
 
     <uses-permission android:name="android.permission.INTERNET" />

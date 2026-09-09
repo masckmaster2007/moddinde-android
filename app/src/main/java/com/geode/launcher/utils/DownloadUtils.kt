@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import android.os.Build
 import android.os.FileUtils

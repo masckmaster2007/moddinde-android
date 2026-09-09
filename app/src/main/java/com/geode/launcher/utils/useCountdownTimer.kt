@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import androidx.compose.runtime.*
 import androidx.lifecycle.compose.LocalLifecycleOwner

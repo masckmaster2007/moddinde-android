@@ -1,4 +1,4 @@
-package com.geode.launcher.ui.theme
+package be.dimisaio.modded.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

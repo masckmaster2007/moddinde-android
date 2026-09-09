@@ -1,4 +1,4 @@
-package com.geode.launcher.activityresult
+package be.dimisaio.modded.activityresult
 
 import android.app.Activity
 import android.content.Context

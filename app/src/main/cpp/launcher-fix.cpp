@@ -10,7 +10,7 @@ std::string DataPaths::data_path{};
 bool DataPaths::patch_exceptions{};
 
 extern "C"
-JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setDataPath(
+JNIEXPORT void JNICALL Java_be_dimisaio_modded_LauncherFix_setDataPath(
         JNIEnv *env,
         jobject,
         jstring data_path
@@ -24,7 +24,7 @@ JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setDataPath(
 }
 
 extern "C"
-JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setOriginalDataPath(
+JNIEXPORT void JNICALL Java_be_dimisaio_modded_LauncherFix_setOriginalDataPath(
         JNIEnv *env,
         jobject,
         jstring data_path
@@ -38,12 +38,12 @@ JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setOriginalDataPath(
 }
 
 extern "C"
-JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_enableExceptionsRenaming(JNIEnv*, jobject) {
+JNIEXPORT void JNICALL Java_be_dimisaio_modded_LauncherFix_enableExceptionsRenaming(JNIEnv*, jobject) {
     DataPaths::patch_exceptions = true;
 }
 
 // this should be called after gd is loaded but before geode
-extern "C" JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_performPatches(JNIEnv*, jobject) {
+extern "C" JNIEXPORT void JNICALL Java_be_dimisaio_modded_LauncherFix_performPatches(JNIEnv*, jobject) {
     dl_iterate_phdr(on_dl_iterate, nullptr);
 }
 

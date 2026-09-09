@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package be.dimisaio.modded.main
 
 import android.app.Application
 import android.os.CountDownTimer
@@ -7,12 +7,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.updater.ReleaseManager
+import be.dimisaio.modded.utils.Constants
+import be.dimisaio.modded.utils.GamePackageUtils
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map

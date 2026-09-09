@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences.components
+package be.dimisaio.modded.preferences.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -41,10 +41,10 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.Profile
-import com.geode.launcher.utils.ProfileManager
+import be.dimisaio.modded.R
+import be.dimisaio.modded.ui.theme.Typography
+import be.dimisaio.modded.utils.Profile
+import be.dimisaio.modded.utils.ProfileManager
 import kotlin.math.log10
 import kotlin.math.max
 import kotlin.math.min

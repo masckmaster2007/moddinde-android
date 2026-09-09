@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth

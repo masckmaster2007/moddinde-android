@@ -1,7 +1,7 @@
-package com.geode.launcher
+package be.dimisaio.modded
 
 import androidx.annotation.Keep
-import com.geode.launcher.utils.Constants
+import be.dimisaio.modded.utils.Constants
 
 @Keep
 object LauncherFix {

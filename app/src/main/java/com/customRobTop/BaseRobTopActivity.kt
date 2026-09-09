@@ -9,7 +9,7 @@ import android.os.Build
 import android.provider.Settings
 import android.widget.Toast
 import androidx.core.net.toUri
-import com.geode.launcher.R
+import be.dimisaio.modded.R
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView.Companion.closeIMEKeyboard
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView.Companion.openIMEKeyboard
 import java.lang.ref.WeakReference

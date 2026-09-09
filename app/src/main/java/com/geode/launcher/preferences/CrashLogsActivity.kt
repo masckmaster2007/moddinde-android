@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package be.dimisaio.modded.preferences
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -42,17 +42,17 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.log.CrashDump
-import com.geode.launcher.log.CrashViewModel
-import com.geode.launcher.preferences.components.DirectoryListingScreen
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.robotoMonoFamily
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import be.dimisaio.modded.R
+import be.dimisaio.modded.UserDirectoryProvider
+import be.dimisaio.modded.log.CrashDump
+import be.dimisaio.modded.log.CrashViewModel
+import be.dimisaio.modded.preferences.components.DirectoryListingScreen
+import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
+import be.dimisaio.modded.ui.theme.LocalTheme
+import be.dimisaio.modded.ui.theme.Theme
+import be.dimisaio.modded.ui.theme.robotoMonoFamily
+import be.dimisaio.modded.utils.LaunchUtils
+import be.dimisaio.modded.utils.PreferenceUtils
 import java.io.File
 import java.util.Date
 import kotlin.time.toJavaInstant

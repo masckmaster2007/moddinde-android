@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package be.dimisaio.modded.utils
 
 import android.annotation.SuppressLint
 import android.content.Context

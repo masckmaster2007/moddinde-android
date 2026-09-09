@@ -1,11 +1,11 @@
-package com.geode.launcher
+package be.dimisaio.modded
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageInstaller
 import android.widget.Toast
-import com.geode.launcher.main.clearDownloadedApks
+import be.dimisaio.modded.main.clearDownloadedApks
 
 class InstallReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
