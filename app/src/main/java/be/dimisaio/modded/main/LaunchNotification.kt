@@ -36,7 +36,7 @@ import be.dimisaio.modded.ui.theme.Theme
 import be.dimisaio.modded.updater.ReleaseManager
 import be.dimisaio.modded.utils.Constants
 import be.dimisaio.modded.utils.GamePackageUtils
-import be.dimisaio.modded.utils.GeodeUtils
+import com.geode.launcher.utils.GeodeUtils
 import be.dimisaio.modded.utils.PreferenceUtils
 import kotlinx.coroutines.delay
 import kotlin.time.Duration

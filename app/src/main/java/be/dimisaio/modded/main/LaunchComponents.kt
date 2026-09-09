@@ -32,7 +32,7 @@ import be.dimisaio.modded.R
 import be.dimisaio.modded.preferences.SettingsActivity
 import be.dimisaio.modded.utils.Constants
 import be.dimisaio.modded.utils.GamePackageUtils
-import be.dimisaio.modded.utils.GeodeUtils
+import com.geode.launcher.utils.GeodeUtils
 import be.dimisaio.modded.utils.PreferenceUtils
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest

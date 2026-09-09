@@ -32,7 +32,7 @@ import be.dimisaio.modded.utils.Constants
 import be.dimisaio.modded.utils.ConstrainedFrameLayout
 import be.dimisaio.modded.utils.DownloadUtils
 import be.dimisaio.modded.utils.GamePackageUtils
-import be.dimisaio.modded.utils.GeodeUtils
+import com.geode.launcher.utils.GeodeUtils
 import be.dimisaio.modded.utils.LaunchUtils
 import be.dimisaio.modded.utils.PreferenceUtils
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView

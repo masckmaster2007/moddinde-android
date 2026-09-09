@@ -17,7 +17,7 @@ import android.view.inputmethod.InputMethodManager
 import androidx.annotation.RequiresApi
 import androidx.appcompat.widget.AppCompatEditText
 import com.customRobTop.BaseRobTopActivity
-import be.dimisaio.modded.utils.GeodeUtils
+import com.geode.launcher.utils.GeodeUtils
 import kotlin.math.abs
 
 private const val HANDLER_OPEN_IME_KEYBOARD = 2
