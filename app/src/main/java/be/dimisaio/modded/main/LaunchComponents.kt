@@ -30,10 +30,10 @@ import androidx.compose.ui.unit.dp
 import be.dimisaio.modded.GeometryDashActivity
 import be.dimisaio.modded.R
 import be.dimisaio.modded.preferences.SettingsActivity
-import be.dimisaio.modded.utils.Constants
-import be.dimisaio.modded.utils.GamePackageUtils
+import com.geode.launcher.utils.Constants
+import com.geode.launcher.utils.GamePackageUtils
 import com.geode.launcher.utils.GeodeUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
 import kotlin.time.Duration.Companion.milliseconds

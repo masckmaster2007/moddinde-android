@@ -51,8 +51,8 @@ import be.dimisaio.modded.ui.theme.LocalTheme
 import be.dimisaio.modded.ui.theme.Theme
 import be.dimisaio.modded.ui.theme.Typography
 import be.dimisaio.modded.ui.theme.robotoMonoFamily
-import be.dimisaio.modded.utils.LaunchUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

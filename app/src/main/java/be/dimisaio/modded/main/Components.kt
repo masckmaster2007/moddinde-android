@@ -23,7 +23,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import be.dimisaio.modded.R
-import be.dimisaio.modded.utils.Constants
+import com.geode.launcher.utils.Constants
 import androidx.core.net.toUri
 
 fun onDownloadGame(context: Context) {

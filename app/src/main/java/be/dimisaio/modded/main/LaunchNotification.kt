@@ -34,10 +34,10 @@ import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
 import be.dimisaio.modded.ui.theme.LocalTheme
 import be.dimisaio.modded.ui.theme.Theme
 import be.dimisaio.modded.updater.ReleaseManager
-import be.dimisaio.modded.utils.Constants
-import be.dimisaio.modded.utils.GamePackageUtils
+import com.geode.launcher.utils.Constants
+import com.geode.launcher.utils.GamePackageUtils
 import com.geode.launcher.utils.GeodeUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.delay
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds

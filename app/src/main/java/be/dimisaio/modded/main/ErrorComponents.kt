@@ -58,9 +58,9 @@ import be.dimisaio.modded.UserDirectoryProvider
 import be.dimisaio.modded.preferences.GeodeLogsListingActivity
 import be.dimisaio.modded.preferences.TextViewActivity
 import be.dimisaio.modded.ui.theme.Typography
-import be.dimisaio.modded.utils.GamePackageUtils
-import be.dimisaio.modded.utils.LaunchUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.GamePackageUtils
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.launch
 import java.io.File
 

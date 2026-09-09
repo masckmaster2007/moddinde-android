@@ -44,9 +44,9 @@ import androidx.compose.ui.unit.dp
 import be.dimisaio.modded.R
 import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
 import be.dimisaio.modded.ui.theme.Typography
-import be.dimisaio.modded.utils.LabelledText
-import be.dimisaio.modded.utils.PreferenceUtils
-import be.dimisaio.modded.utils.ProfileManager
+import com.geode.launcher.utils.LabelledText
+import com.geode.launcher.utils.PreferenceUtils
+import com.geode.launcher.utils.ProfileManager
 import kotlin.collections.get
 import kotlin.math.log10
 import kotlin.math.roundToInt

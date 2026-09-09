@@ -1,6 +1,6 @@
 package be.dimisaio.modded.updater
 
-import be.dimisaio.modded.utils.LaunchUtils
+import com.geode.launcher.utils.LaunchUtils
 import kotlin.time.Instant
 import kotlinx.serialization.Serializable
 

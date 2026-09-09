@@ -43,8 +43,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import be.dimisaio.modded.R
 import be.dimisaio.modded.ui.theme.Typography
-import be.dimisaio.modded.utils.Profile
-import be.dimisaio.modded.utils.ProfileManager
+import com.geode.launcher.utils.Profile
+import com.geode.launcher.utils.ProfileManager
 import kotlin.math.log10
 import kotlin.math.max
 import kotlin.math.min

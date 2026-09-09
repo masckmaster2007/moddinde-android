@@ -9,10 +9,10 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import be.dimisaio.modded.BuildConfig
 import be.dimisaio.modded.updater.ReleaseManager
-import be.dimisaio.modded.utils.Constants
-import be.dimisaio.modded.utils.GamePackageUtils
-import be.dimisaio.modded.utils.LaunchUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.Constants
+import com.geode.launcher.utils.GamePackageUtils
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map

@@ -87,11 +87,11 @@ import be.dimisaio.modded.ui.theme.Theme.LIGHT
 import be.dimisaio.modded.ui.theme.launcherTitleStyle
 import be.dimisaio.modded.ui.theme.sapphireTitleStyle
 import be.dimisaio.modded.updater.ReleaseManager
-import be.dimisaio.modded.utils.ApplicationIcon
-import be.dimisaio.modded.utils.Constants
-import be.dimisaio.modded.utils.GamePackageUtils
-import be.dimisaio.modded.utils.LaunchUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.ApplicationIcon
+import com.geode.launcher.utils.Constants
+import com.geode.launcher.utils.GamePackageUtils
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 import java.net.ConnectException

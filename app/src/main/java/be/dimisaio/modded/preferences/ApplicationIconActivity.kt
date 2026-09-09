@@ -54,12 +54,12 @@ import be.dimisaio.modded.R
 import be.dimisaio.modded.ui.theme.GeodeLauncherTheme
 import be.dimisaio.modded.ui.theme.LocalTheme
 import be.dimisaio.modded.ui.theme.Theme
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.PreferenceUtils
 import androidx.compose.ui.semantics.Role
-import be.dimisaio.modded.utils.ApplicationIcon
-import be.dimisaio.modded.utils.ApplicationIconDetails
-import be.dimisaio.modded.utils.IconUtils
-import be.dimisaio.modded.utils.adaptiveIconPainterResource
+import com.geode.launcher.utils.ApplicationIcon
+import com.geode.launcher.utils.ApplicationIconDetails
+import com.geode.launcher.utils.IconUtils
+import com.geode.launcher.utils.adaptiveIconPainterResource
 
 class ApplicationIconActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

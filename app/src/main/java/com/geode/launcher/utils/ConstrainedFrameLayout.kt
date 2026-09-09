@@ -1,4 +1,4 @@
-package be.dimisaio.modded.utils
+package com.geode.launcher.utils
 
 import android.content.Context
 import android.widget.FrameLayout

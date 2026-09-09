@@ -53,8 +53,8 @@ import be.dimisaio.modded.R
 import be.dimisaio.modded.main.LauncherUpdater.downloadUpdate
 import be.dimisaio.modded.ui.theme.Typography
 import be.dimisaio.modded.updater.ReleaseManager
-import be.dimisaio.modded.utils.LaunchUtils
-import be.dimisaio.modded.utils.PreferenceUtils
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 import com.mikepenz.markdown.compose.LocalBulletListHandler
 import com.mikepenz.markdown.m3.Markdown
 import com.mikepenz.markdown.m3.markdownTypography
