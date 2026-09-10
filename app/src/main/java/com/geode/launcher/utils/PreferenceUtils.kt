@@ -150,6 +150,7 @@ class PreferenceUtils(private val sharedPreferences: SharedPreferences) {
         LAST_LAUNCHER_UPDATE,
         DISABLE_UPDATE_CACHE,
         PREBUNDLED_GEODE_MIGRATION_PERFORMED,
+        MOD_PACK_VERSION,
     }
 
     private fun defaultValueForBooleanKey(key: Key): Boolean {
@@ -201,6 +202,7 @@ class PreferenceUtils(private val sharedPreferences: SharedPreferences) {
             Key.LAST_LAUNCHER_UPDATE -> "PreferenceLastLauncherUpdate"
             Key.DISABLE_UPDATE_CACHE -> "PreferenceDisableUpdateCache"
             Key.PREBUNDLED_GEODE_MIGRATION_PERFORMED -> "PreferencePrebundledGeodeMigrationPerformed"
+            Key.MOD_PACK_VERSION -> "PreferenceModPackVersion"
             // Key.RELEASE_CHANNEL -> "PreferenceReleaseChannel"
             // Key.LAST_DISMISSED_UPDATE -> "PreferenceLastDismissedUpdate"
             // Key.FORCE_HRR -> "PreferenceForceHighRefreshRate"

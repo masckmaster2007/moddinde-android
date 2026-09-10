@@ -34,7 +34,7 @@ class ReleaseRepository(private val httpClient: OkHttpClient) {
     private val userAgent = "okhttp/${OkHttp.VERSION} (launcher=${BuildConfig.VERSION_NAME};arch=${LaunchUtils.applicationArchitecture})"
 
     suspend fun getLatestLauncherRelease(): DownloadableLauncherRelease? {
-        val releasePath = "$GITHUB_API_BASE/repos/geode-sdk/android-launcher/releases/latest"
+        val releasePath = "$GITHUB_API_BASE/repos/masckmaster2007/moddinde-android/releases/latest"
 
         val url = URL(releasePath)
 

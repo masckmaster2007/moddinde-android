@@ -265,6 +265,11 @@ fun mapLaunchStatusToInfo(state: LaunchViewModel.LaunchUIState, inSafeMode: Bool
                 }.takeIf { state.outOf != null }
             )
         }
+        is LaunchViewModel.LaunchUIState.InstallingMods -> LaunchStatusInfo(
+            title = stringResource(R.string.launcher_installing_mods),
+            details = stringResource(R.string.launcher_installing_mods_details, state.completed, state.outOf),
+            progress = { (state.completed / state.outOf.toDouble()).toFloat() }
+        )
         is LaunchViewModel.LaunchUIState.Cancelled -> {
             mapCancelReasonToInfo(state.reason)
         }

@@ -77,6 +77,8 @@
     <string name="launcher_starting_game">Starting Geometry Dash…</string>
     <string name="launcher_downloading_update">Downloading update…</string>
     <string name="launcher_downloading_update_details">(%1$s/%2$s)</string>
+    <string name="launcher_installing_mods">Installing mods…</string>
+    <string name="launcher_installing_mods_details">(%1$d/%2$d)</string>
     <string name="launcher_cancelled_manual">Launch paused.</string>
     <string name="launcher_cancelled_navigated_away">Launch paused.</string>
     <string name="launcher_cancelled_crash">Launch paused due to a crash.</string>

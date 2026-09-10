@@ -8,6 +8,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import be.dimisaio.modded.BuildConfig
+import be.dimisaio.modded.mods.ModInstaller
 import be.dimisaio.modded.updater.ReleaseManager
 import com.geode.launcher.utils.Constants
 import com.geode.launcher.utils.GamePackageUtils
@@ -96,6 +97,7 @@ class LaunchViewModel(private val application: Application): ViewModel() {
         data object Initial : LaunchUIState()
         data object UpdateCheck : LaunchUIState()
         data class Updating(val downloaded: Long, val outOf: Long?) : LaunchUIState()
+        data class InstallingMods(val completed: Long, val outOf: Long) : LaunchUIState()
         data class Cancelled(val reason: LaunchCancelReason, val inProgress: Boolean = false) : LaunchUIState()
         data object Working : LaunchUIState()
         data object Ready : LaunchUIState()
@@ -104,6 +106,7 @@ class LaunchViewModel(private val application: Application): ViewModel() {
             is Ready,
             is Working,
             is Updating,
+            is InstallingMods,
             is UpdateCheck -> true
             else -> false
         }
@@ -118,6 +121,7 @@ class LaunchViewModel(private val application: Application): ViewModel() {
     var launchArguments: LaunchArguments? = null
 
     private var hasCheckedForUpdates = false
+    private var hasInstalledMods = false
     private var isCancelling = false
     private var hasManuallyStarted = false
 
@@ -195,6 +199,13 @@ class LaunchViewModel(private val application: Application): ViewModel() {
             return
         }
 
+        // resources (game + Geode loader) are confirmed present at this point;
+        // install/update the mod pack before anything shows the ready/launch UI
+        if (!hasInstalledMods && !ModInstaller.isInstalled(application)) {
+            viewModelScope.launch { installMods() }
+            return
+        }
+
         // if forcing immediate launch, then act as if it's manually started (skips timers)
         val forceImmediate = launchArguments?.forceLaunch == true
 
@@ -225,6 +236,15 @@ class LaunchViewModel(private val application: Application): ViewModel() {
         }
 
         _uiState.tryEmit(LaunchUIState.Ready)
+    }
+
+    private suspend fun installMods() {
+        ModInstaller.install(application) { completed, outOf ->
+            _uiState.tryEmit(LaunchUIState.InstallingMods(completed, outOf))
+        }
+
+        hasInstalledMods = true
+        preReadyCheck()
     }
 
     fun beginLaunchFlow(isRestart: Boolean = false) {
