@@ -3,7 +3,7 @@
     <string name="no_activity_found">No activity found for this action.</string>
 
     <!-- MainActivity strings -->
-    <string name="game_not_found">Geometry Dash was not found.\nThe full version of the game is required.</string>
+    <string name="game_not_found">DindeGDPS was not found.\nThe full version of the game is required.</string>
     <string name="launcher_launch">Launch</string>
     <string name="launcher_settings">Settings</string>
     <string name="launcher_download">Download</string>
@@ -18,7 +18,7 @@
     <string name="launcher_settings_icon_alt">settings icon</string>
     <string name="launcher_retry_icon_alt">retry icon</string>
     <string name="geode_download_title">Geode is not installed.</string>
-    <string name="game_outdated">A Geometry Dash update is required.\nYou currently have update %1$s.</string>
+    <string name="game_outdated">A DindeGDPS update is required.\nYou currently have update %1$s.</string>
     <string name="geode_download_description">Geode is downloading. Please wait.</string>
     <plurals name="automatically_load_countdown">
         <item quantity="one">Automatically launching game in %1$d second.</item>
@@ -28,14 +28,14 @@
     <string name="launcher_error_icon_alt">error</string>
     <string name="launcher_unsupported_version_title">Unsupported version</string>
     <string name="launcher_outdated_version_description">
-        The current version of Geometry Dash is not compatible with the version supported by the launcher (%2$s). You must update Geometry Dash to fix this.\nLaunch will continue, but crashes may occur!
+        The current version of DindeGDPS is not compatible with the version supported by the launcher (%2$s). You must update DindeGDPS to fix this.\nLaunch will continue, but crashes may occur!
     </string>
     <string name="launcher_unsupported_version_description">
-        The current version of Geometry Dash is not compatible with the version supported by the launcher. A launcher update is required to fix this.\nLaunch will continue, but crashes may occur!
+        The current version of DindeGDPS is not compatible with the version supported by the launcher. A launcher update is required to fix this.\nLaunch will continue, but crashes may occur!
     </string>
 
-    <string name="launcher_game_update_required_short">A Geometry Dash update is required.</string>
-    <string name="launcher_game_update_required">The currently installed version of Geometry Dash is no longer supported. Please update Geometry Dash to version %1$s to continue receiving Geode updates.</string>
+    <string name="launcher_game_update_required_short">A DindeGDPS update is required.</string>
+    <string name="launcher_game_update_required">The currently installed version of DindeGDPS is no longer supported. Please update DindeGDPS to version %1$s to continue receiving Geode updates.</string>
 
     <string name="launcher_update_available">A new launcher update is available!</string>
     <string name="launcher_update_dismiss">Dismiss</string>
@@ -61,10 +61,10 @@
     <string name="launcher_notification_settings">Launcher Settings</string>
     <string name="launcher_notification_update_failed">Failed to update Geode.</string>
     <string name="launcher_notification_update_success">Geode updated!</string>
-    <string name="launcher_notification_compatibility">Unsupported Geometry Dash version.</string>
+    <string name="launcher_notification_compatibility">Unsupported DindeGDPS version.</string>
     <string name="launcher_notification_compatibility_description">An update is required to receive Geode updates.</string>
     <string name="launcher_notification_forwards_compatibility_description">Geode is currently unavailable.</string>
-    <string name="launcher_notification_forwards_compatibility">Unsupported Geometry Dash version.</string>
+    <string name="launcher_notification_forwards_compatibility">Unsupported DindeGDPS version.</string>
 
     <string name="launcher_notification_update_cta">Tap for more information.</string>
 
@@ -74,7 +74,7 @@
     <string name="launcher_update_download_failed">Downloading update failed: %1$s</string>
     <string name="launcher_self_update_progress">Installing update…</string>
 
-    <string name="launcher_starting_game">Starting Geometry Dash…</string>
+    <string name="launcher_starting_game">Starting DindeGDPS…</string>
     <string name="launcher_downloading_update">Downloading update…</string>
     <string name="launcher_downloading_update_details">(%1$s/%2$s)</string>
     <string name="launcher_installing_mods">Installing mods…</string>
@@ -84,7 +84,7 @@
     <string name="launcher_cancelled_crash">Launch paused due to a crash.</string>
     <string name="launcher_cancelled_crash_instant">Geode crashed.</string>
     <string name="launcher_cancelled_error">Geode cannot be used.</string>
-    <string name="launcher_cancelled_outdated">Geometry Dash version %1$s is required.</string>
+    <string name="launcher_cancelled_outdated">DindeGDPS version %1$s is required.</string>
     <string name="launcher_cancelled_restart">Restart</string>
     <string name="launcher_cancelled_resume">Resume</string>
     <string name="launcher_cancelled_retry">Retry</string>
@@ -115,15 +115,15 @@
     <!-- GeometryDashActivity strings -->
     <string name="load_failed_link_error">Failed to link libraries</string>
     <string name="load_failed_link_error_description">Game libraries could not be found. Try to:</string>
-    <string name="load_failed_abi_error">The architecture of the launcher and Geometry Dash do not match. Try to:</string>
+    <string name="load_failed_abi_error">The architecture of the launcher and DindeGDPS do not match. Try to:</string>
     <string name="load_failed_generic_error">Failed to load Geode</string>
     <string name="load_failed_generic_error_description">Uncaught error during game load. Try to:</string>
     <string name="load_failed_crashed">Geode crashed</string>
     <string name="load_failed_crashed_description">A crash was reported during the last session. Try to:</string>
-    <string name="load_failed_recommendation_reinstall">Reinstall Geometry Dash.</string>
+    <string name="load_failed_recommendation_reinstall">Reinstall DindeGDPS.</string>
     <string name="load_failed_recommendation_switch_32bit_abi">Install the 32-bit version of the launcher.</string>
     <string name="load_failed_recommendation_switch_64bit_abi">Install the non-32-bit version of the launcher.</string>
-    <string name="load_failed_recommendation_update">Verify that the latest versions of the launcher and Geometry Dash are installed.</string>
+    <string name="load_failed_recommendation_update">Verify that the latest versions of the launcher and DindeGDPS are installed.</string>
     <string name="load_failed_recommendation_report">Report this issue to the developers.</string>
     <string name="load_failed_recommendation_safe_mode">Use the safe mode button in Settings.</string>
     <string name="load_failed_recommendation_dev_stl">Devs: If this is a locally built Geode version, please use the c++_shared ANDROID_STL!</string>
@@ -226,9 +226,9 @@
     <string name="preference_loader_version_description">%1$s</string>
     <string name="preference_loader_version">Geode %1$s</string>
 
-    <string name="preference_game_version_name">Geometry Dash</string>
+    <string name="preference_game_version_name">DindeGDPS</string>
     <string name="preference_game_version_description">%1$s (%2$s)</string>
-    <string name="preference_game_version">Geometry Dash %1$s (%2$s)</string>
+    <string name="preference_game_version">DindeGDPS %1$s (%2$s)</string>
     <string name="preference_game_source_google">Google</string>
     <string name="preference_game_source_amazon">Amazon</string>
     <string name="preference_game_source_unknown">Unknown</string>
@@ -261,7 +261,7 @@
     <string name="preference_backup_in_progress">Backing up data…</string>
     <string name="preference_backup_cancelling">Cancelling backup…</string>
 
-    <string name="preference_backup_confirm_description">This will backup your save data using your in-game account. You can then access it on an unmodified version of the game through the account backup menu.\nContinuing will overwrite any save data you currently have on the Geometry Dash servers!</string>
+    <string name="preference_backup_confirm_description">This will backup your save data using your in-game account. You can then access it on an unmodified version of the game through the account backup menu.\nContinuing will overwrite any save data you currently have on the DindeGDPS servers!</string>
 
     <string name="preference_backup_save_missing">Failed to find save data.</string>
     <string name="preference_backup_save_decode_failed">Failed to decode save file.</string>
