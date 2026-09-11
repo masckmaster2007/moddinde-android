@@ -129,31 +129,38 @@ object ModInstaller {
         }
 
         try {
-            // configs.zip now ships two top-level folders: config/ -> configDir,
-            // save/ -> savedModsDir. Extract into a scratch dir first (safe to wipe,
-            // it's ours) then merge-copy into the real directories so we never
-            // touch files belonging to mods that aren't part of this pack.
             val configZip = File(context.cacheDir, "dinde-configs.zip")
             val stagingDir = File(context.cacheDir, "dinde-configs-staging")
 
+            if (stagingDir.exists()) stagingDir.deleteRecursively()
+            stagingDir.mkdirs()
+
             DownloadUtils.downloadFile(httpClient, CONFIGS_URL, configZip)
-            DownloadUtils.copyZipStreamToDirectory(configZip.inputStream(), stagingDir)
+            
+            configZip.inputStream().use { inputStream ->
+                DownloadUtils.copyZipStreamToDirectory(inputStream, stagingDir)
+            }
             configZip.delete()
 
+            // 1. Force override config directory
             val stagedConfig = File(stagingDir, "config")
             if (stagedConfig.exists()) {
+                if (configDir.exists()) configDir.deleteRecursively()
                 configDir.mkdirs()
                 stagedConfig.copyRecursively(configDir, overwrite = true)
             }
 
+            // 2. Force override save directory
             val stagedSave = File(stagingDir, "save")
             if (stagedSave.exists()) {
+                if (savedModsDir.exists()) savedModsDir.deleteRecursively()
                 savedModsDir.mkdirs()
                 stagedSave.copyRecursively(savedModsDir, overwrite = true)
             }
 
             stagingDir.deleteRecursively()
-        } catch (e: IOException) {
+            Log.i(TAG, "Default configs and saves successfully overridden")
+        } catch (e: Exception) {
             Log.w(TAG, "failed to install default configs", e)
         } finally {
             completedSteps++
